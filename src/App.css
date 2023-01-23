@@ -1,0 +1,30 @@
+textarea{
+  width: 50vw !important;
+  height: 50vh !important;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+}
+
+.output{
+  width: 40vw;
+  height: 50vh;
+  margin-left:1vw;
+}
+
+.output button{
+  width: 100%;
+  height:15vh;
+}
+
+.tokenTable td,th{
+  margin-left: 2vw;
+  border: 1px solid black;
+}
