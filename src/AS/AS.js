@@ -11,7 +11,7 @@ let errosSemanticos = [];
 
 function findVariavel(variavel){
   for(let i=0; i<tabelaSemantica.length; i++){
-    if(tabelaSemantica[i].cadeia = variavel && tabelaSemantica[i].categoria === 'var'){
+    if(tabelaSemantica[i].cadeia === variavel && tabelaSemantica[i].categoria === 'var'){
       tabelaSemantica[i].usado = true;
       return tabelaSemantica[i].tipo;
     } 
